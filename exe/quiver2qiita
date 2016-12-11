@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'quiver2qiita'
+
+config_path = File.expand_path('~/.quiver2qiita')
+Dir.mkdir(config_path) unless File.exist?(config_path)
+
+Quiver2qiita::CLI.new(ARGV).start

@@ -1,5 +1,2 @@
-require "quiver2qiita/version"
-
-module Quiver2qiita
-  # Your code goes here...
-end
+require 'quiver2qiita/cli'
+require 'quiver2qiita/version'
