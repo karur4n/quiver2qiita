@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'quiver2qiita/api_client'
 require 'quiver2qiita/config/history'
 require 'quiver2qiita/item_builder'

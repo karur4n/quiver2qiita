@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'quiver2qiita/note'
 
 module Quiver2qiita

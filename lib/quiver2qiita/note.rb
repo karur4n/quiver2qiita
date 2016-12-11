@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'json'
 require 'quiver2qiita/cells/code'
 require 'quiver2qiita/cells/markdown'

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'quiver2qiita/commands/sync'
 
 module Quiver2qiita
