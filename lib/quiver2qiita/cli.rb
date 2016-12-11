@@ -18,6 +18,8 @@ module Quiver2qiita
       end
     end
 
+    private
+
     def command_name
       @argv.first
     end
