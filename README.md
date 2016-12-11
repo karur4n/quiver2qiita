@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-    $ quiver2qiita publish
+some configuration...
+
+```
+$ quiver2qiita sync
+```
 
 ## Development
 
