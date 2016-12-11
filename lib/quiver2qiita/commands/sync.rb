@@ -44,11 +44,11 @@ module Quiver2qiita
                   updated_at: note.updated_at,
                   qiita_id: response.body['id']
                 })
-                print "✅ "
+                print '✅ '
                 puts " #{response.body['title']} - #{response.body['url']}"
               else
                 p response.body
-                print "❌ "
+                print '❌ '
                 puts " #{note.title}"
               end
             end
