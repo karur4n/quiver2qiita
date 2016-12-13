@@ -8,7 +8,7 @@ module Quiver2qiita
 
       def initialize
         create_file unless is_exist?
-        @content = YAML.load_file(path) || {} # yaml が空のとき return が返るため
+        @content = YAML.load_file(path) || {} # yaml が空のとき false が返るため
       end
 
       def add(key, value)
